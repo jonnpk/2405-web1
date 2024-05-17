@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{height: 5000px;
+            position: absolute;
+        }
+        
+        #target-tag{position: absolute;
+            bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- self: a 태그 기본값. 현재창에서 바로 이동 -->
+    <a href="https://naver.com" target="_self">🗽네이버로 이동self</a>
+    <!-- blank: 새탭으로 이동 -->
+    <br>
+    <a href="https://naver.com" target="_blank">🗽네이버로 이동blank</a>
+    <!-- parent: iframe태그와 함께 사용하는 속성 -->
+    <br>
+    <a href="https://naver.com" target="_parent">🗽네이버로 이동parent</a>
+    <!-- top: iframe태그와 함께 사용하는 속성 -->
+    <br>
+    <a href="https://naver.com" target="_top">🗽네이버로 이동top</a>
+    <br>
+
+    <a href="../day 04/img-tag.html">이미지로 이동</a>
+    <br>
+
+    <!-- 모바일 환경에서 자주 쓰는 기능-->
+    <a href="tel:010-2446-5321">010-2446-5321</a>
+    <br>
+    <a href="sms:010-2446-5321">JONN에게 문자보내기</a>
+    <br>
+    <a href="mailto:soondae33@gmail.com">JONN에게 메일보내기</a>
+    <br>
+    <!-- #: 링크 넣기 전 일반적으로 넣는 기호 -->
+    <a href="#">임시링크</a>
+    <br>
+
+    <a href="#target-tag">타겟으로 이동</a>
+    
+    
+    <p id="target-tag">타겟</p>
+</body>
+</html>
+<!-- a 태그: 기본 요소로는 인라인 태그지만
+    블록 요소가 들어가는 독특한 태그 -->
